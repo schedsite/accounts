@@ -1,9 +1,9 @@
 pipeline:
   test:
-    image: "3dwardsharp/ng_tstr"
+    image: "node:9"
     environment:
       NODE_ENV: development
-      CHROME_BIN: /usr/bin/google-chrome-unstable --no-sandbox --disable-dev-shm-usage --disable-gpu
     commands:
+      - sh -c "install_phantomjs.sh"
       - npm i
       - npm test

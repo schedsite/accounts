@@ -68,7 +68,7 @@
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "main": "src/test.ts",
-            "polyfills": "src/polyfills.ts",
+            "polyfills": "src/test_polyfills.ts",
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
@@ -140,7 +140,8 @@
           "options": {
             "main": "projects/accounts/src/test.ts",
             "tsConfig": "projects/accounts/tsconfig.spec.json",
-            "karmaConfig": "projects/accounts/karma.conf.js"
+            "karmaConfig": "projects/accounts/karma.conf.js",
+            "polyfills": "projects/accounts/src/test_polyfills.ts"
           }
         },
         "lint": {
