@@ -4,7 +4,6 @@ pipeline:
     environment:
       NODE_ENV: development
     commands:
-      - ./install_phantomjs.sh
       - npm config set loglevel error
       - npm set audit false
       - npm i
