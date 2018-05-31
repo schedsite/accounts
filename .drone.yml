@@ -1,0 +1,8 @@
+pipeline:
+  test:
+    image: "node:9"
+    environment:
+      NODE_ENV: development
+    commands:
+      - npm i
+      - npm test
