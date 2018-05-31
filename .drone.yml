@@ -7,5 +7,5 @@ pipeline:
       - pwd
       - ls
       - ./install_phantomjs.sh
-      # - npm i
-      # - npm test
+      - npm i
+      - npm test
