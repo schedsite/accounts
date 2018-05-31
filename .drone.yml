@@ -1,8 +1,9 @@
 pipeline:
   test:
-    image: "node:9"
+    image: "alpeware:chrome-headless-trunk"
     environment:
       NODE_ENV: development
     commands:
+      - apt-get install npm nodejs
       - npm i
       - npm test
