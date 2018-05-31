@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
+    "quiettest": "ng test sched-accounts-app --no-progress && ng test accounts --no-progress",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "buildlib": "ng build --prod accounts",

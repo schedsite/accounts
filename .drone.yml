@@ -5,8 +5,7 @@ pipeline:
       NODE_ENV: development
     commands:
       - ./install_phantomjs.sh
-      - npm config set loglevel warn
+      - npm config set loglevel error
       - npm set audit false
       - npm i
-      - ng test sched-accounts-app --no-progress
-      - ng test accounts --no-progress
+      - npm run quiettest
