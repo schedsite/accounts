@@ -1,6 +1,6 @@
 pipeline:
   test:
-    image: "alpeware:chrome-headless-trunk"
+    image: "alpeware/chrome-headless-trunk"
     environment:
       NODE_ENV: development
     commands:
