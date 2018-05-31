@@ -6,6 +6,6 @@ pipeline:
     commands:
       - pwd
       - ls
-      - sh -c "install_phantomjs.sh"
+      - ./install_phantomjs.sh
       # - npm i
       # - npm test
