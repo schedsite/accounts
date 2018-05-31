@@ -25,8 +25,8 @@ apt-get install libfreetype6 libfreetype6-dev -y -qq
 apt-get install libfontconfig1 libfontconfig1-dev -y -qq
 
 cd ~
-wget https://bitbucket.org/ariya/phantomjs/downloads/$PHANTOM_JS.tar.bz2
-tar xvjf $PHANTOM_JS.tar.bz2
+wget -q https://bitbucket.org/ariya/phantomjs/downloads/$PHANTOM_JS.tar.bz2
+tar xjf $PHANTOM_JS.tar.bz2
 
 mv $PHANTOM_JS /usr/local/share
 ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/local/bin
