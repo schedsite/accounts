@@ -8,4 +8,5 @@ pipeline:
       - npm config set loglevel warn
       - npm set audit false
       - npm i
-      - npm test
+      - ng test sched-accounts-app --no-progress
+      - ng test accounts --no-progress
