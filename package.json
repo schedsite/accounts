@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod accounts && ng build --prod",
     "test": "ng test",
     "quiettest": "ng test sched-accounts-app --no-progress && ng test accounts --no-progress",
     "lint": "ng lint",

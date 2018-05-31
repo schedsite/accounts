@@ -6,3 +6,10 @@ pipeline:
       - npm set audit false
       - npm i
       - npm run quiettest
+  publish:
+    image: plugins/gh-pages
+    secrets: [ github_username, github_password ]
+    pages_directory: dist/sched-accounts-app/
+    commands: 
+      - npm i
+      - npm run build
