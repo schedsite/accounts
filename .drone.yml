@@ -3,7 +3,7 @@ pipeline:
     image: "3dwardsharp/ng_tstr"
     environment:
       NODE_ENV: development
-      CHROME_BIN: /usr/bin/google-chrome-unstable
+      CHROME_BIN: /usr/bin/google-chrome-unstable --no-sandbox
     commands:
       - npm i
       - npm test
