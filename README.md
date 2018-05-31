@@ -1,6 +1,8 @@
 # SchedAccountsApp
 
-see: [@sched/accounts](projects/accounts/) :information_desk_person:
+[![Build Status](https://drone.sked.site/api/badges/schedsite/accounts/status.svg)](https://drone.sked.site/schedsite/accounts)
+
+:information_desk_person: [projects/accounts/](projects/accounts/) for @sched/accounts
 
 ## MISC 
 
