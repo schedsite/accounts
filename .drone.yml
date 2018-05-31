@@ -4,6 +4,8 @@ pipeline:
     environment:
       NODE_ENV: development
     commands:
+      - pwd
+      - ls
       - sh -c "install_phantomjs.sh"
-      - npm i
-      - npm test
+      # - npm i
+      # - npm test
