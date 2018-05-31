@@ -6,7 +6,8 @@ pipeline:
       - npm set audit false
       - npm i
       - npm run pagesbuild
-      - npm run quiettest
+      - npm run testquiet
+      - mv coverage/ dist/sched-accounts-app/coverage/
   publish:
     image: plugins/gh-pages
     secrets: [ github_username, github_password ]

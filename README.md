@@ -1,6 +1,7 @@
 # SchedAccountsApp
 
-[![Build Status](https://drone.sked.site/api/badges/schedsite/accounts/status.svg)](https://drone.sked.site/schedsite/accounts)
+[![Build Status](https://drone.sked.site/api/badges/schedsite/accounts/status.svg)](https://drone.sked.site/schedsite/accounts) 
+[![npm version](https://img.shields.io/npm/v/@sched/accounts.svg)](https://www.npmjs.com/package/@sched/accounts)
 
 :information_desk_person: [projects/accounts/](projects/accounts/) for @sched/accounts
 
