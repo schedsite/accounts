@@ -5,7 +5,7 @@ pipeline:
       - npm config set loglevel error
       - npm set audit false
       - npm i
-      - npm run build
+      - npm run pagesbuild
       - npm run quiettest
   publish:
     image: plugins/gh-pages
