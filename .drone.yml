@@ -1,11 +1,8 @@
 pipeline:
   test:
-    image: "alpeware/chrome-headless-trunk"
+    image: "3dwardsharp/ng_tstr"
     environment:
       NODE_ENV: development
     commands:
-      - apt-get update -y -qq && apt-get install -y --no-install-recommends apt-transport-https
-      - curl -sL https://deb.nodesource.com/setup_8.x | bash -
-      - apt-get install -y nodejs 
       - npm i
       - npm test
