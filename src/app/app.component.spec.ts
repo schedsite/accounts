@@ -28,8 +28,4 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('h1').textContent).toContain('Welcome to sched-accounts-app!');
   }));
 
-  it('should fail', () => {
-    expect(false).toBeTruthy();
-  });
-  
 });
