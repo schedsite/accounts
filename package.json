@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod accounts && ng build --prod",
-    "pagesbuild": "ng build --prod --no-progress accounts && ng build --prod --base-href /accounts/ --no-progress",
+    "pagesbuild": "ng build --prod accounts && ng build --prod --base-href /accounts/",
     "test": "ng test",
     "testquiet": "ng test sched-accounts-app --no-progress --code-coverage && ng test accounts --no-progress --code-coverage",
     "testcov": "ng test sched-accounts-app --code-coverage && ng test accounts --code-coverage",

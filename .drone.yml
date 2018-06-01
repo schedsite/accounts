@@ -5,9 +5,7 @@ pipeline:
       - npm config set loglevel error
       - npm set audit false
       - npm i -s
-      - npm run pagesbuild
-      - npm run testquiet
-      - mv coverage/ dist/sched-accounts-app/coverage/
+      - npm run testquiet && npm run pagesbuild && mv coverage/ dist/sched-accounts-app/coverage/
   publish:
     image: plugins/gh-pages
     secrets: [ github_username, github_password ]
